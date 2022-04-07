@@ -1,5 +1,4 @@
 package com.xyzcorp.containers;
 
-public class Box<E> {
-
+public class Box {
 }

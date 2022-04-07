@@ -19,7 +19,9 @@ public class BridgeTest {
      */
     @Test
     public void testBridgeMethod() {
+        //base is a raw type, we are emulated what it is at runtime
         Node base = new MyNode(5);
+        //Remember that at runtime, type params are erased
         base.setData(40);
         assertThat(base.getData()).isEqualTo(40);
     }
